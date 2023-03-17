@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class GoogleTest {
     //WebDriver - de la selenium si
-    // face interactiunea cu web-ul cu pagina
+        // face interactiunea cu web-ul cu pagina
     WebDriver driver;
 
     @BeforeClass
