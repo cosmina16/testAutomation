@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="Test.SignUpTest">
+        <methods>
+          <include name="testNegativeSignUp"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.SignUpTest -->
+      <class name="Test.GoogleTest">
+        <methods>
+          <include name="SearchGoogleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.GoogleTest -->
+      <class name="Test.SignUpPageTest">
+        <methods>
+          <include name="testIfSignUpPageIsAvailable"/>
+          <include name="close"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.SignUpPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
